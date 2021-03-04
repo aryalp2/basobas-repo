@@ -1,0 +1,26 @@
+.button-basic{
+    border-radius: 10px;
+    padding: 10px 32px;
+    align-items: center;
+}
+
+.button-primary{
+    @extend .button-basic;
+    background-color: #36f;
+}
+
+.button-secondary{
+    @extend .button-basic;
+    background-color: #fff;
+}
+
+.button-tertiary{
+    @extend .button-basic;
+    background-color: #1a8333;
+}
+
+.button-verified{
+    @extend .button-basic;
+    background-color: lightpink;
+}
+
