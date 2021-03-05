@@ -1,5 +1,7 @@
 @import './header.scss';
 @import './herotext.scss';
+@import './status.scss';
+@import './categories.scss';
 
 *{
     margin: 0;
@@ -11,12 +13,12 @@
 
 html, body{
     min-width: 1140px;
-    font-family: Roboto;
+    font-family: 'lato';
 }
 
 p{
     font-size: 14px;
-    font-family: mason sans, sans-serif;
+    font-family: 'lato';
     color: #172b4d;
     margin-bottom: 1em;
 }
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400;
     margin-bottom: 0.5em;
     margin-top: 0;
-    color: rgba(0, 0, 0, 0.85);
+    line-height: 40px;
 }
 
 h1{
@@ -41,71 +43,149 @@ a{
     cursor: pointer;
 }
 
-
-.status{
-
-    padding-top: 60px;
-
-    .container{
-        .row{
-            .info-card{
-                padding: 0 5px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 30px;
-        
-                h2{
-                    font-size: 24px;
-                    font-weight: 700;
-                    margin-top: 10px;
-                }
-
-                p{
-                    margin-top: 10px;
-                    text-align: center;
-                    font-size: 16px;
-                    padding: 0 5px;
-                    line-height: 1.5;
-                }
-
-                
-        
-            }
-        }
-    }
-    
+.container-fluid{
+    margin: 15px;
 }
 
-.status img{
-    width: 200px;
-    height: 200px;
+.container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.border-line{
+    min-height: 1px;
+    background-color: #e4e4e4;
+    margin-top: 30px;
 }
 
 .box{
     padding: 1%;
 }
 
-.box img{
-    width: 244px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-    background: #000;
-}
 
-.categories .box{
+// .box img{
+//     width: 244px;
+//     height: 100px;
+//     object-fit: cover;
+//     border-radius: 8px;
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+//     background: #000;
+// }
+
+.hero{
     position: relative;
-    color: #fff;
 }
 
-.categories h3{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#premium,
+.featured{
+    h2{
+        margin-bottom: 0;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 29px;
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+    h5{
+        font-size: 1.1em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        text-transform: capitalize;
+        transition: color 0.2s;
+
+        &:hover{
+            color: #36f;
+        }
+        
+    }
+
+    .box {
+
+        span{
+            color: #36f;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+            background: #000;
+        }
+
+        .formatting{
+            display: flex;
+            p{
+                line-height: 0.5;
+                margin-left: 5px;
+                font-size: 0.8rem;
+            }
+        }
+        
+    }
+
+}
+
+.floatup{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    &:hover{
+        box-shadow: 3px 3px 10px -6px #000000;
+        transform: translateY(-1px);
+    }
+}
+
+.box{
+    span{
+        color: #36f;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+}
+
+.native-banner{
+    background: #ebecf0;
+    padding: 40px 0;
+
+    .container{
+        .row{
+            a{
+                &:hover{
+                    color: #003399;
+                }
+            }
+            .box {
+                img{
+                    width: 100%;
+                    height: 250px;
+                    border-radius: 8px;
+                }
+
+                h2{
+                    font-size: 29px;
+                    font-weight: 700;
+                    margin-top: 15px;
+
+                }
+            }
+        }
+    }
+
+    
 }
 
 .company-info{

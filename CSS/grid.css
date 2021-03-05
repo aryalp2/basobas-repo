@@ -27,7 +27,7 @@
 .col {
 	display: block;
 	float:left;
-	/* margin: 1% 0 1% 1.6%; */
+	/* padding: 1% 0 1% 1.6%; */
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -45,21 +45,13 @@
 
 /*  GRID OF TWO   ============================================================================= */
 
-
-.span-2-of-2 {
-	width: 100%;
-}
-
 .span-1-of-2 {
-	width: 49.2%;
+	width: 50%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span-2-of-2 {
-		width: 100%; 
-	}
 	.span-1-of-2 {
 		width: 100%; 
 	}
@@ -68,29 +60,15 @@
 
 /*  GRID OF THREE   ============================================================================= */
 
-	
-.span-3-of-3 {
-	width: 100%; 
-}
-
-.span-2-of-3 {
-	width: 66.13%; 
-}
 
 .span-1-of-3 {
-	width: 31.26%; 
+	width: 33.33333%; 
 }
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span-3-of-3 {
-		width: 100%; 
-	}
-	.span-2-of-3 {
-		width: 100%; 
-	}
 	.span-1-of-3 {
 		width: 100%;
 	}
@@ -105,15 +83,6 @@
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span-4-of-4 {
-		width: 100%; 
-	}
-	.span-3-of-4 {
-		width: 100%; 
-	}
-	.span-2-of-4 {
-		width: 100%; 
-	}
 	.span-1-of-4 {
 		width: 100%; 
 	}
@@ -122,43 +91,14 @@
 
 /*  GRID OF FIVE   ============================================================================= */
 
-	
-.span-5-of-5 {
-	width: 100%;
-}
-
-.span-4-of-5 {
-  	width: 79.68%; 
-}
-
-.span-3-of-5 {
-  	width: 59.36%; 
-}
-
-.span-2-of-5 {
-  	width: 39.04%;
-}
-
 .span-1-of-5 {
-  	width: 18.72%;
+	width: 20%;
 }
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span-5-of-5 {
-		width: 100%; 
-	}
-	.span-4-of-5 {
-		width: 100%; 
-	}
-	.span-3-of-5 {
-		width: 100%; 
-	}
-	.span-2-of-5 {
-		width: 100%; 
-	}
 	.span-1-of-5 {
 		width: 100%; 
 	}

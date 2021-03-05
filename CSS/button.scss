@@ -1,26 +1,46 @@
 .button-basic{
-    border-radius: 10px;
+    border: none;
     padding: 10px 32px;
     align-items: center;
 }
 
 .button-primary{
     @extend .button-basic;
+    color: #fff;
+    border-radius: 10px;
     background-color: #36f;
+
+    &:hover{
+        background-color: #039;
+    }
 }
 
 .button-secondary{
     @extend .button-basic;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .button-tertiary{
     @extend .button-basic;
-    background-color: #1a8333;
+    background-color: #2da449;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: #1a8333;
+    }
 }
 
 .button-verified{
     @extend .button-basic;
-    background-color: lightpink;
+    background-color: #2da449;
+    border-radius: 5px;
+    padding: 0 8px;
+    line-height: 18px;
+    margin-left: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 10px;
 }
 

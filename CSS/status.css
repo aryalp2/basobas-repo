@@ -1,0 +1,94 @@
+.button-basic, .button-primary, .button-secondary, .button-tertiary, .button-verified {
+  border: none;
+  padding: 10px 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-primary {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #36f;
+}
+
+.button-primary:hover {
+  background-color: #039;
+}
+
+.button-secondary {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.button-tertiary {
+  background-color: #2da449;
+  border-radius: 10px;
+}
+
+.button-tertiary:hover {
+  background-color: #1a8333;
+}
+
+.button-verified {
+  background-color: #2da449;
+  border-radius: 5px;
+  padding: 0 8px;
+  line-height: 18px;
+  margin-left: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.status {
+  padding-top: 60px;
+}
+
+.status .container .row .info-card {
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.status .container .row .info-card img {
+  width: 200px;
+  height: 200px;
+}
+
+.status .container .row .info-card h2, .status .container .row .info-card p {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.status .container .row .info-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.status .container .row .info-card p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 5px;
+  line-height: 1.5;
+}
+
+.status .container .row .info-card .button-primary {
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+}
+/*# sourceMappingURL=status.css.map */

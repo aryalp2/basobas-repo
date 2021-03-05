@@ -1,0 +1,42 @@
+.categories {
+  padding: 60px 0px;
+}
+
+.categories h2,
+.categories h3 {
+  font-weight: 700;
+}
+
+.categories h2 {
+  font-size: 29px;
+}
+
+.categories h3 {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.categories p {
+  margin-top: 5px;
+}
+
+.categories .box {
+  position: relative;
+  color: #fff;
+}
+
+.categories .box img {
+  width: 244px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background: #000;
+}
+/*# sourceMappingURL=categories.css.map */
