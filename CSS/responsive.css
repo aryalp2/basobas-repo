@@ -1,0 +1,25 @@
+@media only screen and (max-width:1024px){
+    .form-search{
+        display: none;
+    }
+
+    .header-nav{
+        right: -9.8%;
+    }
+
+    .hero-text-box{
+        top: 85%;
+        left: 58%;
+    }
+
+    .take-a-look button{
+        padding: 0 33px;
+    }
+
+    .featured .box .formatting p{
+        overflow:visible;
+        text-overflow: ellipsis;
+        line-height: 1;
+    }
+
+}

@@ -52,7 +52,8 @@
 }
 
 .header-nav {
-  margin-left: 247px;
+  position: absolute;
+  right: 1%;
   font-size: 14px;
 }
 
@@ -86,8 +87,8 @@
 }
 
 .logo {
-  margin-top: -10px;
   width: 162px;
+  margin-top: -10px;
 }
 
 .form-search {
