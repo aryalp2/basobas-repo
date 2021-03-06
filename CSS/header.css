@@ -39,6 +39,7 @@
   color: #fff;
   text-transform: uppercase;
   border-radius: 5px;
+  font-size: 10px;
 }
 
 .header {
@@ -48,15 +49,6 @@
   display: flex;
   vertical-align: middle;
   height: 70px;
-}
-
-.container-fluid {
-  margin: 15px;
-}
-
-.container {
-  width: 92%;
-  margin: 0 auto;
 }
 
 .header-nav {

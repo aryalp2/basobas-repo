@@ -27,7 +27,6 @@
 .col {
 	display: block;
 	float:left;
-	/* padding: 1% 0 1% 1.6%; */
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -37,7 +36,6 @@
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		/*margin: 1% 0 1% 0%;*/
         margin: 0;
 	}
 }
