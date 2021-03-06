@@ -498,7 +498,8 @@ a {
   font-size: 0.8rem;
 }
 
-.featured .take-a-look {
+.featured .take-a-look,
+.blogs .take-a-look {
   width: 100%;
   height: 100%;
   min-height: 320px;
@@ -523,23 +524,27 @@ a {
   transition: all ease-in-out .3s;
 }
 
-.featured .take-a-look .right-icon {
+.featured .take-a-look .right-icon,
+.blogs .take-a-look .right-icon {
   text-align: center;
 }
 
-.featured .take-a-look .right-icon ion-icon {
+.featured .take-a-look .right-icon ion-icon,
+.blogs .take-a-look .right-icon ion-icon {
   font-size: 45px;
   line-height: 1;
 }
 
-.featured .take-a-look .text {
+.featured .take-a-look .text,
+.blogs .take-a-look .text {
   text-align: center;
   font-size: 16px;
   margin-top: 10px;
   text-transform: capitalize;
 }
 
-.featured .take-a-look button {
+.featured .take-a-look button,
+.blogs .take-a-look button {
   border: none;
   height: 40px;
   padding: 0 73px;
@@ -553,7 +558,8 @@ a {
   font-size: 18px;
 }
 
-.featured .take-a-look:hover {
+.featured .take-a-look:hover,
+.blogs .take-a-look:hover {
   background: #bec1c3;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
@@ -567,6 +573,7 @@ a {
   width: 100%;
   min-height: 320px;
   height: 100%;
+  border: 1px solid transparent;
 }
 
 .floatup:hover {
