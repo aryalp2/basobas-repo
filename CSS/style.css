@@ -184,10 +184,10 @@
 
 .hero-text-box {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-115%, -115%);
-          transform: translate(-115%, -115%);
+  -webkit-transform: translate(-110%, -50%);
+          transform: translate(-110%, -50%);
   color: #fff;
 }
 
@@ -970,5 +970,15 @@ a {
   height: 1px;
   margin-bottom: 30px;
   margin-top: 10px;
+}
+
+.burger-menu,
+.search-add {
+  display: none;
+}
+
+.burger-menu ion-icon,
+.search-add ion-icon {
+  font-size: 200%;
 }
 /*# sourceMappingURL=style.css.map */

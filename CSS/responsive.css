@@ -23,3 +23,68 @@
     }
 
 }
+
+@media only screen and (max-width:768px){
+    .header-nav{
+        display: none;
+    }
+
+    .span-1-of-4{
+        width: 50%;
+        min-height: 300px;
+    }
+
+    .burger-menu,
+    .search-add{
+        display: block;
+    }
+
+    .burger-menu{
+        margin-right: 1%;
+    }
+
+    .hero-text-box{
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .search-add{
+        position: absolute;
+        right: -46%;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+
+    body{
+        font-size: 150%;
+    }
+
+    .hero{
+        display: none;
+    }
+
+    .span-1-of-2,
+    .span-1-of-3,
+    .span-1-of-4{
+        width: 100%;
+    }
+
+    .burger-menu,
+    .search-add{
+        display: block;
+        margin-top: -15px;
+    }
+
+    .burger-menu{
+        margin-right: 1%;
+    }
+
+    .search-add{
+        position: absolute;
+        right: -160%;
+    }
+
+}

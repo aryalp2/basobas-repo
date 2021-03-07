@@ -613,3 +613,11 @@ a{
 
 
 }
+
+.burger-menu,
+.search-add{
+    display: none;
+    ion-icon{
+        font-size: 200%;
+    }
+}
